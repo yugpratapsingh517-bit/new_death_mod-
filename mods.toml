@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="deathmod"
+version="1.0.0"
+displayName="Death Mod - A Mowzie's Mobs Addon"
+description='''
+Death Mode for Mowzie's Mobs. Makes Ferrous Wroughtnaut, Umvuthi and Frostmaw much stronger.
+Requires Mowzie's Mobs.
+'''
+
+[[dependencies.deathmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.deathmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.deathmod]]
+    modId="mowziesmobs"
+    mandatory=true
+    versionRange="[1.8.2,)"
+    ordering="AFTER"
+    side="BOTH"
